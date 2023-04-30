@@ -17,6 +17,12 @@ PyTorch-based Analysis of Credit Card Fraud: A Deep Learning Analysis
 
 We have a dataset which contains transactions made by credit cards in September 2013 by European cardholders. We have 57,355 rows and 31 columns. All the columns we have are in numeric form which was obtained after PCA transformation. Due to confidentiality issues, the dataset doesn't have the original features and more background information about the data.
 
+We start our analysis with Exploratory Data Analysis (EDA) where we look at the shape, datatype, null values, outliers and distribution of the data. If every thing checks out, we divided our data into train, test and validate dataset. We divide the dataset with stratified target value. This will help to divide the unbalanced dataset equally to train, test and validate dataset.
+
+After that, we train a Pytorch NN, we scale the values, we build a custom dataloader, calculate the sample weights, and finally run the neural network in GPU. With the test dataset, we get 0.9976% accuracy, 0.9718% precision and 0.7263% recall.
+
+For more details look in the [python notebook](https://github.com/itsmeSamrat/CreditCardFraudAnalysis-Using-Pytorch/blob/main/Credit%20Card%20Fraud%20Analysis.ipynb)
+
 Follow the steps in [getting started](#getting-started)
 
 ## Getting Started
