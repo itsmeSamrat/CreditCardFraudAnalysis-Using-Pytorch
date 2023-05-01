@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=100&center=true&vCenter=true&multiline=true&width=650&height=100&lines=Credit+Card+Fraud+Analysis+Using+Pytorch;PyTorch-based+Analysis+of+Credit+Card+Fraud;A+Deep+Learning+Analysis">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=100&center=true&vCenter=true&multiline=true&width=650&height=100&lines=Credit+Card+Fraud+Analysis+Using+Pytorch">
 </div>
 
 ## Description
